@@ -1,3 +1,3 @@
 # CCXP-DNC
-
-link : https://ccxp-dnc-projeto.netlify.app
+-> Projeto de desenvolvimento, começando a aplicar JavaScript em landing pages.
+-> link : https://ccxp-dnc-projeto.netlify.app
