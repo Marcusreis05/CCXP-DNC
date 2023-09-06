@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é projeto / desafio disponibilizado pela DNC 
+    school para o aprendizado, nesse projeto iniciamos a ultilizar o java script.">
+    <link rel="stylesheet" href="style.css">
+    <title> CCPX22 </title>
+</head>
+<body>
+    <header>
+        <img src="./imagens/logo.svg" alt="ERROR">
+    </header>
+    <section>
+
+<!--Info-->
+
+        <div id="divInfo">
+            <h1>REVIVA O ÉPICO</h1>
+            <h2> DE 01 A 04 DE DEZEMBRO</h2>
+            <p>
+                Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos <br>
+                em casa". Sim, em dezembro de 2022, <br>
+                teremos a volta da CCXP física. Mas não será <br>
+                qualquer CCXP, vai ser a maior de todos os <br>
+                tempos. Prepare-se para visitar seus <br>
+                universos favoritos, explorar o Artists' Valley, <br>
+                se emocionar nos auditórios e encontrar <br>
+                aventuras épicas a cada passo pelos nossos <br>
+                corredores.
+            </p>
+        </div>
+        <div id="secaoCountDown">
+
+<!--TIMER-->
+
+            <div class="timer">
+                <div>
+                    <h1><span id="dia">00</span>D</h1>
+                </div>
+        
+                <div>
+                    <h1><span id="hora">00</span>H</h1>
+                </div>
+        
+                <div>
+                    <h1><span id="minuto">00</span>M</h1>
+                </div>
+        
+                <div>
+                    <h1><span id="segundo">00</span>S</h1>
+                </div>
+            </div>
+            
+            <p id="pTimer">PARA A MAIOR CCXP DE TODOS OS TEMPOS</p>
+            
+<!--FINAL TIMER-->
+<!--Video-->
+
+            <div id="divVideo">
+                <video width="750px" controls loop><source src="./video/Arlequina.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+    </section>
+
+<!--CARDS-->
+
+    <main>
+        <nav>
+            <div id="cardsSection">
+                <p id="textCard">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
+                <div id="cards">
+                    <img  id="quinta" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" onclick="selectCard('#quinta')" src="./imagens/card1canva.jpg" width="170px" class="cardSpace" alt="">
+                    <img  id="sexta" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" onclick="selectCard('#sexta')" src="./imagens/card2canva.png" width="170px" class="cardSpace" alt="">
+                    <img  id="sabado" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" onclick="selectCard('#sabado')" src="./imagens/card3canva.png" width="170px" class="cardSpace" alt="">
+                    <img  id="domingo" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" onclick="selectCard('#domingo')" src="./imagens/card4canva.png" width="170px" class="cardSpace" alt="">
+                </div>
+            </div>
+            <button id="button" onclick="showSelectedCards()"> GARANTA O SEU!</button>
+        </nav>
+    </main>
+
+<!--Form-->
+
+    <div id="divForm">
+        <form action="https://store.steampowered.com/?l=portuguese">
+            <input id="formEmail" type="email" placeholder="Seu E-mail" class="form" required>
+            <input id="formEnviar" type="submit">
+        </form>
+    </div>
+
+<!--Rodapé-->
+
+    <footer>
+        <div id="divBotton">
+            <ul>
+                <li><a href="#divInfo">Home</a></li>
+                <li><a href="#cardsSection">Ingressos</a></li>
+                <li><a href="#secaoCountDown">CountDown</a></li>
+            </ul>
+            <ul>
+                <li><a href="#divInfo">Info</a></li>
+                <li><a href="#divVideo">Video</a></li>
+                <li><a href="">Discord</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+<!--Copy-->
+
+<p id="copy">&copy; 2023 Marcus Reis</p>
+
+<!--Script-->
+
+<script src="index.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

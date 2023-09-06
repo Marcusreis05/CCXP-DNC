@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #FFD900;
+    padding: 20px;
+
+}
+
+header img{
+    padding-left: 30px;
+}
+
+section{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+
+button{
+    margin-top: 18%;
+    border-radius: 20px;
+    background: #514988;
+    height: 120px;
+    width: 500px;
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #514988;
+    color: #F3C61F;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0000007c;
+    transition-duration: 0.5s;
+    border: #F3C61F solid 2px;
+}
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    padding-bottom: 50px;
+}
+
+/* SecaoInfo*/
+
+#divInfo{
+    background-color: #514988;
+    text-align: center;
+    padding-top: 30px;
+    color: #FFFFFF;
+    padding: 0px 30px 50px 30px;
+}
+
+#divInfo h1{
+    color: #F3C61F;
+    font-size:  60px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#divInfo h2{
+    padding-bottom: 45px;
+    font-size: 22px;
+}
+
+#divInfo p{
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+
+/* SecaoVideo*/
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 35px;
+    padding:30px 30px 0px 30px;
+    color: #514988;
+}
+
+#pTimer{
+    color: #E33881;
+    font-family: Verdana;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+/* SecaoVideo*/
+
+#divVideo{
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: url(./imagens/fundoLancamento.jpg);
+}
+
+/* SecaoCards*/
+
+#textCard{
+    color: #F3C61F;
+    font-family: Verdana;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 0px 10px 70px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    box-shadow: 0px 15px 20px #0000007c;
+    cursor: pointer;
+}
+
+#cards{
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+
+.card-selected{
+    outline: 5px solid green;
+    border-radius: 5px ;
+}
+
+.cardSpace{
+    margin: 15px;
+}
+
+/* Formulario*/
+
+#divForm{
+    background-color: #E33881;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+/* Input Enviar*/
+
+#formEnviar{
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #654efa;
+    height: 70px;
+    width: 400px;
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#formEnviar:hover{
+    background-color: #514988;
+    color: #F3C61F;
+    transform: translateY(-3px);
+    box-shadow: 0px 15px 20px #0000007c;
+    transition-duration: 0.5s;
+    border: #F3C61F solid 2px;
+}
+
+/* Input E-mail*/
+
+#formEmail{
+    margin-right: 30px;
+    border-radius: 10px;
+    border: none;
+    background: #654efa;
+    height: 70px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#formEmail:hover{
+    background-color: #654efa;
+    box-shadow: 0px 5px 5px #0000007c;
+    transition-duration: 0.5s;
+}
+
+input::placeholder {
+    color: white;
+    opacity: .9;
+    font-weight: 700;
+}
+
+/* SecaoRodapé*/
+
+#divBotton{
+    width: 100%;
+    background-color: #F3C61F;
+    display: flex;
+    justify-content: center;
+} 
+
+#divBotton ul,li,a {
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+
+#divBotton ul,li,a:hover{
+    color: #514988;
+}
+
+#divBotton ul,li{
+    text-decoration: none;
+    margin: 10px;
+    list-style: none;
+}
+
+#divBotton ul{
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    margin-left: 6%;
+}
+
+/* SecaoCopy*/
+
+#copy{
+    background-color: #F3C61F;
+    text-align: center;
+    color:#333;
+    font-size: 12px;
+}
